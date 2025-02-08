@@ -26,6 +26,7 @@ import {
   Twitter,
   Youtube,
   Book,
+  Music2,
 } from "lucide-react";
 import { ReactNode } from "react";
 import { Link } from "@tanstack/react-router";
@@ -134,40 +135,22 @@ export const Navbar = () => {
 export const Footer = () => {
   const features = [
     {
-      Icon: Instagram,
-      name: "hmif_ftumj",
-      description: "Instagram HMIF BEM FT-UMJ",
-      href: "https://www.instagram.com/hmif_ftumj",
-      cta: "Visit Account",
-      background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:row-start-1 lg:row-end-3 lg:col-start-2 lg:col-end-2",
-    },
-    {
-      Icon: Mail,
-      name: "hmif@ftumj.ac.id",
-      description: "Email HMIF BEM FT-UMJ",
-      href: "mailto:hmif@ftumj.ac.id",
-      cta: "Visit Account",
-      background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:row-start-3 lg:row-end-4 lg:col-start-2 lg:col-end-2",
-    },
-    {
-      Icon: Twitter,
-      name: "@hmif_ftumj",
-      description: "Twitter HMIF BEM FT-UMJ",
-      href: "https://twitter.com/hmif_ftumj",
-      cta: "Visit Account",
-      background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-1 lg:col-end-1 lg:row-start-2 lg:row-end-1",
-    },
-    {
       Icon: Github,
       name: "hmif_ftumj",
       description: "Github HMIF BEM FT-UMJ",
       href: "https://github.com/hmifft-umj",
       cta: "Visit Account",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
-      className: "lg:col-start-1 lg:col-end-1 lg:row-start-2 lg:row-end-4",
+      className: "lg:col-start-1 lg:col-end-1 lg:row-start-2 lg:row-end-1",
+    },
+    {
+      Icon: Instagram,
+      name: "hmif_ftumj",
+      description: "Instagram HMIF BEM FT-UMJ",
+      href: "https://www.instagram.com/hmif_ftumj",
+      cta: "Visit Account",
+      background: <img className="absolute -right-20 -top-20 opacity-60" />,
+      className: "lg:row-start-1 lg:row-end-2 lg:col-start-2 lg:col-end-2",
     },
     {
       Icon: Youtube,
@@ -177,6 +160,34 @@ export const Footer = () => {
       cta: "Visit Account",
       background: <img className="absolute -right-20 -top-20 opacity-60" />,
       className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2",
+    },
+    {
+      Icon: Mail,
+      name: "hmif@ftumj.ac.id",
+      description: "Email HMIF BEM FT-UMJ",
+      href: "mailto:hmif@ftumj.ac.id",
+      cta: "Visit Account",
+
+      background: <img className="absolute -right-20 -top-20 opacity-60" />,
+      className: "lg:col-start-1 lg:col-end-1 lg:row-start-2 lg:row-end-4",
+    },
+    {
+      Icon: Twitter,
+      name: "@hmif_ftumj",
+      description: "Twitter HMIF BEM FT-UMJ",
+      href: "https://twitter.com/hmif_ftumj",
+      cta: "Visit Account",
+      background: <img className="absolute -right-20 -top-20 opacity-60" />,
+      className: "lg:row-start-2 lg:row-end-2 lg:col-start-2 lg:col-end-2",
+    },
+    {
+      Icon: Music2,
+      name: "@hmif_ftumj",
+      description: "TikTok HMIF BEM FT-UMJ",
+      href: "https://www.tiktok.com/@hmif_ftumj?_t=ZS-8tjqrmb1jBR&_r=1",
+      cta: "Visit Account",
+      background: <img className="absolute -right-20 -top-20 opacity-60" />,
+      className: "lg:row-start-3 lg:row-end-4 lg:col-start-2 lg:col-end-2",
     },
     {
       Icon: Linkedin,
